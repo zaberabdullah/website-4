@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header section */
+header{
+    padding-top: 40px;
+}
+
+/* navbar section */
+nav{ 
+    max-width: 1200px;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+   
+nav .menu{
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+}
+nav .menu a{
+    text-decoration: none;
+    color: rgba(58, 58, 58, 1);
+}
+
+/* image and content section */
+
+.main-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.h-class{
+    font-size: 3.25rem;
+    font-weight: bold;
+}
+.p-class{
+    color: #3A3A3A;
+    font-weight: 600;
+    padding-top: 16px;
+}
+.btn{
+    margin-top: 16px;
+    padding: 10px 50px 10px 24px;
+    border-radius: 20px;
+    background-color: #E02C6D;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.btn:hover{
+    color: #360316;
+}
+
+.img-container{
+    background-image: url(images/Circle\ design.svg);
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+
+
+
+
+
+
+
