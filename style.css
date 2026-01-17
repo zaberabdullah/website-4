@@ -43,7 +43,7 @@ nav .menu a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
     margin-top: 50px;
 }
@@ -74,8 +74,41 @@ nav .menu a{
     background-image: url(images/Circle\ design.svg);
     padding-top: 40px;
     padding-left: 30px;
+    padding-bottom: 20px;
+    /* border: 1px solid gray; */
 }
 
+.logo-content{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    max-width: 1140px;
+    margin: 60px auto;
+
+}
+
+
+
+@media screen and (max-width:576px) {
+    .main-container{
+        flex-direction: column-reverse;
+        width: 100%;
+        text-align: center;
+        
+    }
+   nav{
+    flex-direction: column;
+   }
+
+   .h-class{
+        margin-top: 50px;
+        font-size: 2rem;
+   }
+
+   .img-container img{
+    width: 100%;
+   }
+
+}
 
 
 
